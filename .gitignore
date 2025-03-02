@@ -1,52 +1,37 @@
-# Prerequisites
-*.d
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Virtual environment directories
+venv/
+env/
+ENV/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Logs and temporary files
+*.log
+tmp/
+*.tmp
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Generated FAISS index and metadata files (if not meant for versioning)
+faiss_index.idx
+faiss_metadata.json
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# IDE / Editor configurations
+.vscode/
+.idea/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Environment file (do not commit actual secrets)
+.env
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Local cloned repositories or other large generated folders
+cloned_repo/
